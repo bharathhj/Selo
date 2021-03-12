@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELO Official</title>
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+</head>
+<body>
+    <!--
+
+        ***LANDINGPAGE***
+
+    -->
+    <div id="wrapper1">
+        <!--Navigation and logo-->
+        <nav>
+            <input type="checkbox" id="nav" class="hidden" />
+            <label for="nav" class="nav-btn">
+              <i></i>
+              <i></i>
+              <i></i>
+            </label>
+            <div class="logo"><a href="#"><img src="img/logo.png" height="120" width="120"></a></div>
+            <div class="nav-wrapper" id="menu">
+              <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">TOUR</a></li>
+                <li><a href="">MUSIC</a></li>
+                <li><a href="">DISCOGRAPHY</a></li>
+                <li><a href="">GALLERY</a></li>
+              </ul>
+            </div>
+          </nav>
+        <!--Landing page title and description-->
+        <div id="w1content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <br>
+            <h1 id="trigger">Voice in <a> with<br> art of</a> Noise out</h1>
+            <h2>Wild MuSiC . . .</h2>
+        </div>
+        <!--"Go-up" button-->
+        <div id="arrowup">
+            <img src="./img/icons/arrowup.png" alt="">
+        </div>
+    </div>
+    <!--
+
+        ***WRAPPER2/COUNTER***
+
+    -->     
+    <div class="wrapper2">
+        <!--container for counter-->
+        <div id="w2content">
+            <!-- Stat 1-->
+            <div class="w2box">
+                <div class="counter" data-target="8000">0</div>
+                <h3>Events</h3>
+            </div>
+            <!-- Stat 2-->
+            <div class="w2box">
+                <div class="counter" data-target="10000">0</div>
+                <h3>Nights</h3>
+            </div>
+            <!-- Stat 3-->
+            <div class="w2box">
+                <div class="counter" data-target="7000">0</div>
+                <h3>Crew</h3>
+            </div>
+            <!-- Stat 4-->
+            <div class="w2box">
+                <div class="counter" data-target="6000">0</div>
+                <h3>Followers</h3>
+            </div>
+        </div>
+    </div>
+    <!--
+
+        ***WRAPPER3/LIST***
+
+    -->
+    <div> <img src="img/m2.png" width="100%"></div>
+    <div class="wrapper3">
+        <!-- Title-->
+        <h1>Feel the rythm . . . Breakout Scilence . . . with every single
+            beat . . . Get your on the Mood with good vibes ,
+            Step in to the music House</h1>
+            <!-- Container with all lessons types-->
+            <div class="w3container">
+                <!-- Box 1-->
+                <img src="img/m1.jpg" width="1580px">
+            </div>
+            <!-- Read more&call to action-->
+            <h2>Grab Your Tickets Now and Join us on Main Events every weekend .</h2>
+            <div class="w3button" onclick="location.href='teaching.html';">
+                Book Now
+            </div>
+            <img src="img/m4.jpg" width="100%">
+        </div>
+        <!--
+
+        ***WRAPPER4/Testimonials***
+
+    -->
+        <div class="wrapper4">
+            <!-- title-->
+            <h1 style="color: #ff9417">Hang on and Say something cool !</h1>
+            <!-- Contaier for content-->
+            <div class="w4container">
+                <div class="w4arrow1" onclick="minus()"></div>
+                <div class="w4spacer1"></div>
+                <div class="w4section">
+                    <div class="w4content">
+                        <!-- Opinion 1-->
+                        <div class="w4box">
+                            <p>
+                                "One of the best party place in Goa where you can enjoy good trance music. It is decorated with UV painting and dark light. You can even chill out in Beach."
+                            </p>
+                            <h3>~ Danson</h3>
+                        </div>
+                         <!-- Opinion 2-->
+                        <div class="w4box" id="mobilehide">
+                            <p>
+                                "
+What surprised us most during OneRepublic‘s Mumbai debut on Saturday was how many of the band’s songs we inadvertently seemed to know. Thanks to the excessive airplay the band has managed in their heyday, every other lyric and hook sounded familiar even if we couldn’t always recall the song title."
+                            </p>
+                            <h3>~ Avi</h3>
+                        </div>
+                         <!-- Opinion 3-->
+                        <div class="w4box">
+                            <p>
+                                "The American pop-rock band made their much-awaited India debut on April 21st. While there was expected social media thrill at the announcement of the show last month and the days leading up to it. We were bracing ourselves for an overcrowded rock show but when we arrived at around 7:30pm the venue was roomy enough for us to perambulate freely. "
+                            </p>
+                            <h3>~ Willson</h3>
+                        </div>
+                         <!-- Opinion 4-->
+                        <div class="w4box" id="mobilehide">
+                            <p>
+                                "Guitarists Drew Brown and Zach Filkins, bassist/cellist Brent Kutzle and drummer Eddie Fisher were the first to appear onstage but fans were craning their necks to catch a glimpse of frontman Ryan Tedder. He burst onto the stage moments later with “Stop and Stare,” the group’s 2007 single that cemented their stardom, before launching right into 2009’s “Secrets.”"
+                            </p>
+                            <h3>~ Smith</h3>
+                        </div>
+                         <!-- Opinion 5-->
+                        <div class="w4box">
+                            <p>
+                                "The visual setup was bare bones with two big screens on either side for audiences at the back, particularly during “Wherever I Go,” “All The Right Moves” and Tedder’s solo moments at his piano . The frequent flood of light on the audience also created the illusion of an intimate gig."
+                            </p>
+                            <h3>~ Karan</h3>
+                        </div>
+                         <!-- Opinion 6-->
+                        <div class="w4box" id="mobilehide">
+                            <p>
+                                "Over the past year I’ve been digging a little deeper into K-pop concert culture in India. The biggest issue is of course that we just don’t have enough numbers. There’s no data to present to artists who are interested in coming and a lot of it rides on them making the decision to take a leap of faith and test the market."
+                            </p>
+                            <h3>~ James</h3>
+                        </div>
+                    </div>
+                     <!-- Dots at the bottom-->
+                    <div class="w4dots">
+                        <div class="dot" id="dot1"></div>
+                        <div class="dot" id="dot2"></div>
+                        <div class="dot" id="dot3"></div>
+                    </div>
+                </div>
+               
+                <div class="w4arrow2" onclick="plus()"> </div>
+                
+                <div class="w4spacer2"></div>
+                
+            </div>            
+        </div>
+        <!--
+
+        ***WRAPPER5/Contact***
+
+    -->
+        
+        <div class="wrapper5">
+            
+            <!-- Contact thinks -->
+            <div class="w5content">
+                <h1><a style="color: #ffba00">SELO</a> Event Organizers</h1>
+                <div class="w5container">
+                    <!-- contact 1-->
+                    <div class="box">
+                        <h2><a>Office Address</a> :</h2><br>
+                        <h3> Echoes of Earth Music Festival<br>Kuduragere, Karnataka 562157
+                         </h3>
+                    </div>
+                    <!-- contact 2-->
+                    <div class="box">
+                        <h2><a>Main Branch Address </a> :</h2><br>
+                        <h3>The Bangalore Gayana Samaja<br>
+                            Krishna Rajendra Road, Basavanagudi, Basavanagudi, Bengaluru, Karnataka 560004</h3>
+                    </div>
+                    <!-- contact 3-->
+                    <div class="box">
+                        <h2><a style="color: #d01a21">Telephone</a> :</h2><br>
+                        <h3><a href="tel:+48530740070">08172 297 870</a></h3>
+                    </div>
+                    <!-- contact 4-->
+                    <div class="box">
+                        <h2><a style="color: #d01a21">E-mail</a>:</h2><br>
+                        <h3>selo@gmail.com</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Social section in contact-->
+            <div class="w5socials">
+                <h2 style="color: #000000">Follow Us !</h2>
+                <div class="w5socialbar">
+                    <!-- Social 1-->
+                    <div class="w5icon">
+                        <a href="#"><img src="img/icons/facebook.png" alt=""></a>
+                    </div>
+                    <!-- Social 2-->
+                    <div class="w5icon">
+                        <a href="#"><img src="img/icons/instagram.png" alt=""></a>
+                    </div>
+                    <!-- Social 3-->
+                    <div class="w5icon">
+                       <a href="#"><img src="img/icons/youtube.png" alt=""></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+
+        ***WRAPPER6/Footer***
+
+    -->
+        <div class="wrapper6">
+            <h2>Copyrights &#124;<a href="#"> Artsb007</a></h2>
+        </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
